@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>A.T. Lanthier: The Daily Dispatch</title>
+  <meta name="description" content="The news and writings of author A.T. Lanthier, delivered in the old style.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=UnifrakturMaguntia&family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main story</a>
+
+  <div class="paper">
+    <header class="masthead">
+      <div class="masthead__top">
+        <p class="ear ear--left">
+          <span class="ear__label">Est. 2026</span>
+          Stories Fit to Print
+        </p>
+
+        <h1 class="masthead__title">A.T. Lanthier</h1>
+
+        <p class="ear ear--right">
+          <span class="ear__label">Price</span>
+          One Good Story
+        </p>
+      </div>
+
+      <div class="dateline">
+        <span>Vol. I &middot; No. <span id="issue-number">1</span></span>
+        <time id="today" datetime="">&nbsp;</time>
+        <span>Late City Edition</span>
+      </div>
+    </header>
+
+    <div class="reader-tools" role="group" aria-label="Text size">
+      <span class="reader-tools__label" id="text-size-label">Type size:</span>
+      <button type="button" data-size="down" aria-describedby="text-size-label">
+        <span aria-hidden="true">A&minus;</span><span class="visually-hidden">Smaller text</span>
+      </button>
+      <button type="button" data-size="reset" aria-describedby="text-size-label">
+        <span aria-hidden="true">A</span><span class="visually-hidden">Default text size</span>
+      </button>
+      <button type="button" data-size="up" aria-describedby="text-size-label">
+        <span aria-hidden="true">A+</span><span class="visually-hidden">Larger text</span>
+      </button>
+    </div>
+
+    <div class="layout">
+      <main id="main" class="lead" tabindex="-1">
+        <article aria-labelledby="lead-headline">
+          <p class="kicker">Extra! Extra!</p>
+          <h2 id="lead-headline" class="headline">Published!</h2>
+          <p class="deck">Local Author&rsquo;s Tale &ldquo;The Price of the Wind&rdquo; Accepted by <em>Flash Fiction Magazine</em></p>
+          <p class="byline">By <span class="byline__name">Our Literary Correspondent</span></p>
+
+          <figure class="photo">
+            <img src="me.JPEG" alt="A.T. Lanthier visiting a church in Vallenar, Chile" width="4284" height="5712" fetchpriority="high" decoding="async">
+            <figcaption>The author, all smiles upon hearing the news. <span class="credit">Staff Photo</span></figcaption>
+          </figure>
+
+          <div class="story">
+            <p>In a development that surprised no one, A.T. Lanthier has received a publication for the story &ldquo;The Price of the Wind&rdquo; in <em>Flash Fiction Magazine</em>, the esteemed online publication that publishes in print once a year.</p>
+
+            <p>While the piece is political in nature, some hail the author for mulling many different perspectives in few words.</p>
+
+            <h3 class="subhead">A Long Way to a Thousand Words</h3>
+
+            <p>From afar, A.T. Lanthier is known for sitting in cafes, drinking coffee too late and keeping private with his notebook. Asked about the work, the author was characteristically candid: &ldquo;I write about everything, whatever comes to mind with no limits. Songs, future conversations, I wrote a novel once. It&rsquo;s terrible.&rdquo;</p>
+
+            <p>Aside from political fiction, he takes pleasure in writing urban fiction and dabbles in the fantasy genres as well.</p>
+
+            <blockquote class="pullquote">
+              <p>&ldquo;I write about everything, whatever comes to mind with no limits. Songs, future conversations, I wrote a novel once. It&rsquo;s terrible.&rdquo;</p>
+            </blockquote>
+
+            <p>Readers eager to see the finished work are advised to keep watch on the magazine&rsquo;s pages in the coming weeks. Further details, including the date of publication, will be announced in these columns as soon as they may be printed.</p>
+
+            <p>In the meantime, the author has returned to his typewriter to edit some of his rejected stories. Those wishing to follow along may find news of them elsewhere in this edition.</p>
+          </div>
+        </article>
+      </main>
+
+      <aside class="sidebar" aria-label="More from this edition">
+        <section id="about" class="brief" aria-labelledby="about-heading">
+          <h2 id="about-heading" class="brief__title">About the Author</h2>
+          <p>A.T. Lanthier writes fiction long and short of the new and before. When not at the typewriter, the author may be found reading the next Kazuro Ishiguro or Barbara Kingsolver novel.</p>
+        </section>
+
+        <section id="works" class="brief" aria-labelledby="works-heading">
+          <h2 id="works-heading" class="brief__title">Works in Progress</h2>
+          <ul class="brief__list">
+            <li><strong>Ritalin Teeth</strong> &mdash; Flash Fiction. It was more than an opiate crisis.</li>
+            <li><strong>Grease</strong> &mdash; Flash Fiction. Patriarchy and its double standards.</li>
+            <li><strong>Untitled novel</strong> &mdash; Exploring human liberty and challenging neolithic tropes in an ancient fiction.</li>
+          </ul>
+        </section>
+
+        <section id="quotes" class="brief brief--boxed" aria-labelledby="quotes-heading">
+          <h2 id="quotes-heading" class="brief__title">Quotes</h2>
+          <figure class="quote">
+            <blockquote>
+              <p>&ldquo;I can&rsquo;t even say I made my own mistakes. Really &ndash; one has to ask oneself &ndash; what dignity is there in that?&rdquo;</p>
+            </blockquote>
+            <figcaption>&mdash; Kazuo Ishiguro, <cite>The Remains of the Day</cite></figcaption>
+          </figure>
+
+          <figure class="quote">
+            <blockquote>
+              <p>&ldquo;Sometimes, immersed in his books, there would come to him the awareness of all that he did not know, of all that he had not read; and the serenity for which he labored was shattered as he realized the little time he had in life to read so much, to learn what he had to know.&rdquo;</p>
+            </blockquote>
+            <figcaption>&mdash; John Williams, <cite>Stoner</cite></figcaption>
+          </figure>
+        </section>
+      </aside>
+    </div>
+
+    <footer class="colophon">
+      <p>&copy; <span id="year">2026</span> A.T. Lanthier. All rights reserved.</p>
+      <p>Printed on the finest digital newsprint.</p>
+    </footer>
+  </div>
+</body>
+</html>
